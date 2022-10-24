@@ -6,8 +6,8 @@ import com.example.expert.service.ExpertService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
-@RequestMapping("/expert")
-@CrossOrigin(origins = "*")
+@RequestMapping("/expert/crud")
+
 @RestController
 public class ExpertRestController {
 

@@ -29,7 +29,7 @@ import java.util.stream.Collectors;
 
 
 @RestController
-@CrossOrigin(origins = "*")
+
 @RequestMapping("/expert/auth")
 public class AuthController {
   @Autowired
